@@ -15,6 +15,7 @@ html {
 body {
   background: #f3f3f3;
   font-family: "Atma", cursive;
+  color: #f3f3f3;
 }
 
 .container {
@@ -34,111 +35,13 @@ body {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6);
 }
 
-.container-letters {
-  top: 25%;
-  left: 50%;
-  transform: translateX(-48%);
+.container-card {
   position: absolute;
-  height: 40vh;
-  width: 34%;
-
-  transition: all 0.5s ease-in-out;
-}
-
-.letter {
-  position: absolute;
-  cursor: pointer;
-  font-size: 4.2rem;
-  font-weight: 700;
-  color: #f3f3f3;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: rgb(0, 0, 0, 0.4) 0 0 5px;
-}
-
-.letter-A {
-  top: 42%;
-  left: 12%;
-  transform: rotate(21deg) translate(-50%, -50%);
-}
-
-.letter-C {
-  top: 26%;
-  left: 20%;
-  transform: rotate(-15deg) translate(-50%, -50%);
-}
-
-.letter-D {
-  top: 28%;
-  left: 34%;
-  transform: rotate(-28deg) translate(-50%, -50%);
-}
-
-.letter-E {
-  top: 28%;
-  left: 64%;
-  transform: rotate(52deg) translate(-50%, -50%);
-}
-
-.letter-I {
-  top: 53%;
-  left: 29%;
-  transform: rotate(-42deg) translate(-50%, -50%);
-}
-
-.letter-L {
-  top: 39%;
-  left: 73%;
-  transform: rotate(-22deg) translate(-50%, -50%);
-}
-
-.letter-M {
-  top: 69%;
-  left: 75%;
-  transform: rotate(-43deg) translate(-50%, -50%);
-}
-
-.letter-N {
-  top: 52%;
-  left: 63%;
-  transform: rotate(65deg) translate(-50%, -50%);
-}
-
-.letter-J {
-  top: 58%;
-  left: 40%;
-  transform: rotate(31deg) translate(-50%, -50%);
-}
-
-.letter-O {
-  top: 78%;
-  left: 53%;
-  transform: rotate(12deg) translate(-50%, -50%);
-}
-
-.letter-P {
-  top: 80%;
-  left: 39%;
-  transform: rotate(54deg) translate(-50%, -50%);
-}
-
-.letter-V {
-  top: 74%;
-  left: 22%;
-  transform: rotate(14deg) translate(-50%, -50%);
-}
-
-.letter-S {
-  top: 16%;
-  left: 49%;
-  transform: rotate(37deg) translate(-50%, -50%);
-}
-
-.letter-T {
-  top: 50%;
-  left: 50%;
-  transform: rotate(46deg) translate(-50%, -50%);
+  width: 60%;
+  height: 65vh;
 }
 
 .container-info {
@@ -146,44 +49,14 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 65vh;
-  width: 70%;
+  height: 100%;
+  width: 100%;
   padding: 1.5rem;
   background: rgba(0, 0, 0, 0.6);
   text-align: center;
-  border: 1px solid darkgray;
-  color: #f3f3f3;
+  border: 1px solid #a9a9a9;
   z-index: -1;
   opacity: 0;
-
+  backface-visibility: hidden;
   transition: all 0.5s ease-in-out;
-}
-
-.container-info .container-message h3 {
-  font-size: 5.6rem;
-  margin-bottom: 1rem;
-}
-
-.container-info .container-message p {
-  font-size: 3.6rem;
-}
-
-.container-info .container-message button {
-  margin-top: 3.6rem;
-  cursor: pointer;
-  border: 1px solid darkgray;
-  background: rgb(0, 204, 34);
-  color: #f3f3f3;
-  border-radius: 1.8rem;
-  padding: 1rem 2.4rem;
-  font-size: 3.6rem;
-  transition: all 0.3s ease-in-out;
-}
-
-.container-info .container-message button:hover {
-  transform: scale(1.05);
-}
-
-.container-info .container-message button:active {
-  transform: scale(1);
 }

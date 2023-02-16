@@ -1,0 +1,32 @@
+.container-info .container-message h3 {
+  font-size: 5.6rem;
+  margin-bottom: 1rem;
+}
+
+.container-info .container-message p {
+  font-size: 3.6rem;
+}
+
+.container-info .container-message button {
+  margin-top: 3.6rem;
+  cursor: pointer;
+  border: none;
+  background: #3baa35;
+  color: #f3f3f3;
+  border-radius: 1.8rem;
+  padding: 1rem 2.4rem;
+  font-size: 3.6rem;
+  transition: all 0.3s ease-in-out;
+}
+
+/*
+
+.container-info .container-message button:hover {
+  transform: scale(1.05);
+}
+
+.container-info .container-message button:active {
+  transform: scale(1);
+}
+
+*/
