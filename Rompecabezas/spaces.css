@@ -1,0 +1,118 @@
+.empty {
+  position: absolute;
+  width: 10.5rem;
+  height: 2.8rem;
+  border-radius: 1.8rem;
+  cursor: pointer;
+  background: red;
+}
+
+.space-1 {
+  left: 8.04rem;
+  top: 24.6rem;
+}
+
+.space-2 {
+  top: 25rem;
+  left: 39.7rem;
+}
+
+.space-3 {
+  top: 35.2rem;
+  left: 12.3rem;
+}
+
+.space-4 {
+  top: 34rem;
+  left: 35.7rem;
+}
+
+.space-5 {
+  top: 45.9rem;
+  left: 7.8rem;
+}
+
+.space-6 {
+  top: 48rem;
+  left: 33.8rem;
+}
+
+.space-7 {
+  top: 51.6rem;
+  left: 10rem;
+}
+
+.space-8 {
+  top: 24.5rem;
+  left: 109.4rem;
+}
+
+.space-9 {
+  top: 26.8rem;
+  left: 81.5rem;
+}
+
+.space-10 {
+  top: 30.6rem;
+  left: 109.8rem;
+}
+
+.space-11 {
+  top: 35.6rem;
+  left: 78.7rem;
+}
+
+.space-12 {
+  top: 38.4rem;
+  left: 108.2rem;
+}
+
+.space-13 {
+  top: 47rem;
+  left: 83.1rem;
+}
+
+.space-14 {
+  top: 49.5rem;
+  left: 105.6rem;
+}
+
+.space-15 {
+  top: 38.8rem;
+  left: 13rem;
+}
+
+.space-16 {
+  top: 47.3rem;
+  left: 14.3rem;
+}
+
+.space-17 {
+  top: 43rem;
+  left: 40.3rem;
+}
+
+.space-18 {
+  top: 49rem;
+  left: 37.8rem;
+}
+
+.space-19 {
+  top: 36rem;
+  left: 108rem;
+}
+
+.space-20 {
+  top: 40.6rem;
+  left: 82.2rem;
+}
+
+.space-21 {
+  top: 49.8rem;
+  left: 84rem;
+}
+
+.space-22 {
+  top: 48rem;
+  left: 106.4rem;
+}
